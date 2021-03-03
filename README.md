@@ -5,4 +5,6 @@ This project was implemented using HTML, CSS and Sass a css preprocessor.
 
 ```A Grid system of 12 columns portions was implemented using css grid system on each, to layout the page. Check any single to see activate the grid, found at the very start of each page.```
 
+>Note: This project, can be used and customized as wished.
+
 The website was deployed on Netlify, [Click to see](hht:www)
