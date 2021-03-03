@@ -1,0 +1,43 @@
+/* Buttons */
+%btn{
+    all:unset;
+    padding: 5px 24px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;        
+
+}
+
+.btn-hollow-white{
+    @extend %btn;
+    border: 1px solid white;
+    &:hover {
+        background-color: rgba($color: #ffffff, $alpha: 0.1);
+        transition: .4s;
+        transition-timing-function: ease-in-out;
+    }
+}
+
+.btn-primary{
+    @extend %btn;
+    background-color: $primary-color;
+    color: white;   
+    transition-timing-function: ease-in-out;
+    transition: .5s;
+
+    &:hover{
+        background-color: darken($color: $primary-color, $amount: 10%);
+    }
+}
+
+.cli-style {
+    background-color: #222;
+    padding: 0.8rem;
+    color: #eeeeee;
+    margin-bottom: 0.4rem;
+    font-size: 0.9rem;
+}
+.docs-style {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #bbb;
+}

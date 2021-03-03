@@ -1,0 +1,37 @@
+# Created by https://www.toptal.com/developers/gitignore/api/sass,vscode
+# Edit at https://www.toptal.com/developers/gitignore?templates=sass,vscode
+
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+### vscode ###
+.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+*.code-workspace
+
+### fontawesome ###
+node_modules/@fortawesome/fontawesome-free/css/all.min.css
+node_modules/@fortawesome/fontawesome-free/css/brands.css
+node_modules/@fortawesome/fontawesome-free/css/brands.min.css
+node_modules/@fortawesome/fontawesome-free/css/fontawesome.css
+node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css
+node_modules/@fortawesome/fontawesome-free/css/regular.css
+node_modules/@fortawesome/fontawesome-free/css/regular.min.css
+node_modules/@fortawesome/fontawesome-free/css/solid.css
+node_modules/@fortawesome/fontawesome-free/css/solid.min.css
+node_modules/@fortawesome/fontawesome-free/css/svg-with-js.css
+node_modules/@fortawesome/fontawesome-free/css/svg-with-js.min.css
+node_modules/@fortawesome/fontawesome-free/css/v4-shims.css
+node_modules/@fortawesome/fontawesome-free/css/v4-shims.min.css
+node_modules/@fortawesome/fontawesome-free/js/
+node_modules/@fortawesome/fontawesome-free/less/
+node_modules/@fortawesome/fontawesome-free/scss/
+node_modules/@fortawesome/fontawesome-free/sprites/
+
+# End of https://www.toptal.com/developers/gitignore/api/sass,vscode

@@ -1,0 +1,95 @@
+// Theme Settings
+$primary-color: #50449E;
+
+// Parent and Child Shadow
+$shadow: 0px 5px 10px rgba($color: #333, $alpha: 0.3);
+$container-width: calc(100% - 100%/12*4);
+
+/* Font Familly */
+/* Inter Font Familly */
+@font-face {
+    font-family: 'Inter-light';
+    src: url(../webfonts/Inter-300.ttf);
+}
+@font-face {
+    font-family: 'Inter-regular';
+    src: url(../webfonts/Inter-regular.ttf);
+}
+@font-face {
+    font-family: 'Inter-medium';
+    src: url(../webfonts/Inter-500.ttf);
+}
+@font-face {
+    font-family: 'Inter-bold';
+    src: url(../webfonts/Inter-600.ttf);
+}
+/* Source Code Pro Font Familly */
+@font-face {
+    font-family: 'SourceCodePro-regular';
+    src: url(../webfonts/SourceCodePro/SourceCodePro-regular.ttf);
+}
+@font-face {
+    font-family:'SourceCodePro-medium';
+    src: url(../webfonts/SourceCodePro/SourceCodePro-500.ttf);
+}
+@font-face {
+    font-family: 'SourceCodePro-bold';
+    src: url(../webfonts/SourceCodePro/SourceCodePro-600.ttf);
+}
+
+
+/*Font Icons ~ Fontawesome*/
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+/* Text Sizes */
+.text-small{
+    font-size: 13px;
+}
+.text-regular{
+    font-size: 16px;
+}
+.text-medium{
+    font-size: 24px;
+    line-height: 1.3;
+}
+.text-large{
+    font-size: 32px;
+    line-height: 1.2;
+}
+.text-xlarge{
+    font-size: 64px;
+    line-height: 1.1;
+}
+
+// Margins
+$spaceUnits: (1, 2, 3, 4, 5);
+
+@each $spacing in $spaceUnits {
+    .m-#{$spacing}{
+        margin: #{$spacing}rem;
+    }
+    .my-#{$spacing}{
+        margin: #{$spacing}rem 0;
+    }
+    .mt-#{$spacing}{
+        margin-top: #{$spacing}rem;
+    }
+    .mr-#{$spacing}{
+        margin-right: #{$spacing}rem;
+    }
+    .mb-#{$spacing}{
+        margin-bottom: #{$spacing}rem;
+    }
+    .ml-#{$spacing}{
+        margin-left: #{$spacing}rem;
+    }
+    .p-#{$spacing}{
+        padding: #{$spacing}rem;
+    }
+    .py-#{$spacing}{
+        padding: #{$spacing}rem;
+    }
+    .px-#{$spacing}{
+        padding: 0 #{$spacing}rem;
+    }
+}
