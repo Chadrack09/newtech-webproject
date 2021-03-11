@@ -16,22 +16,22 @@
 *.code-workspace
 
 ### fontawesome ###
-node_modules/@fortawesome/fontawesome-free/css/all.min.css
-node_modules/@fortawesome/fontawesome-free/css/brands.css
-node_modules/@fortawesome/fontawesome-free/css/brands.min.css
-node_modules/@fortawesome/fontawesome-free/css/fontawesome.css
-node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css
-node_modules/@fortawesome/fontawesome-free/css/regular.css
-node_modules/@fortawesome/fontawesome-free/css/regular.min.css
-node_modules/@fortawesome/fontawesome-free/css/solid.css
-node_modules/@fortawesome/fontawesome-free/css/solid.min.css
-node_modules/@fortawesome/fontawesome-free/css/svg-with-js.css
-node_modules/@fortawesome/fontawesome-free/css/svg-with-js.min.css
-node_modules/@fortawesome/fontawesome-free/css/v4-shims.css
-node_modules/@fortawesome/fontawesome-free/css/v4-shims.min.css
-node_modules/@fortawesome/fontawesome-free/js/
-node_modules/@fortawesome/fontawesome-free/less/
-node_modules/@fortawesome/fontawesome-free/scss/
-node_modules/@fortawesome/fontawesome-free/sprites/
+public/node_modules/@fortawesome/fontawesome-free/css/all.min.css
+public/node_modules/@fortawesome/fontawesome-free/css/brands.css
+public/node_modules/@fortawesome/fontawesome-free/css/brands.min.css
+public/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css
+public/node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css
+public/node_modules/@fortawesome/fontawesome-free/css/regular.css
+public/node_modules/@fortawesome/fontawesome-free/css/regular.min.css
+public/node_modules/@fortawesome/fontawesome-free/css/solid.css
+public/node_modules/@fortawesome/fontawesome-free/css/solid.min.css
+public/node_modules/@fortawesome/fontawesome-free/css/svg-with-js.css
+public/node_modules/@fortawesome/fontawesome-free/css/svg-with-js.min.css
+public/node_modules/@fortawesome/fontawesome-free/css/v4-shims.css
+public/node_modules/@fortawesome/fontawesome-free/css/v4-shims.min.css
+public/node_modules/@fortawesome/fontawesome-free/js/
+public/node_modules/@fortawesome/fontawesome-free/less/
+public/node_modules/@fortawesome/fontawesome-free/scss/
+public/node_modules/@fortawesome/fontawesome-free/sprites/
 
 # End of https://www.toptal.com/developers/gitignore/api/sass,vscode
