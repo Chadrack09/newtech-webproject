@@ -93,3 +93,169 @@ $spaceUnits: (1, 2, 3, 4, 5);
         padding: 0 #{$spacing}rem;
     }
 }
+
+/* Media Queries */
+
+/* Extra small devices mobile */
+@media (max-width: 578px) {
+    .header-nav {
+        // background-color: #333;
+        flex-direction: column;
+        ul {
+            margin-top: 1rem;
+        }
+    }
+    .header-contain {
+        .header-content {
+        grid-template-columns: 1fr;
+        }
+    }
+    .stats-icon {
+        // background-color: #333;
+        flex-direction: column;
+        .icon-flex {
+            margin-bottom: 1.4rem;
+        }
+    }
+    .cli-container{
+        .cli-cmd {
+            grid-template-columns: 1fr;
+            justify-items: center;
+        }
+    }
+    .cloud-container{
+        .cloud-hosting {
+            grid-template-columns: 1fr;
+            align-items: center;
+            justify-items: center;
+        }
+    }
+    .languages {
+        .lang-content {
+            .lang-card-container {
+                .lang-card {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+        }
+    }
+    .container-footer-content {
+        .footer-container {
+            // background-color: #fff;
+            grid-template-columns: 1fr;
+            justify-items: start;
+        }
+    }
+}
+
+/* Small devices tablet*/
+@media (min-width: 578px) {
+    .header-nav {
+        // background-color: #333;
+        flex-direction: column;
+        ul {
+            margin-top: 1rem;
+        }
+    }
+    .header-contain {
+        .header-content {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        }
+    }
+    .stats-icon {
+        // background-color: #333;
+        flex-direction: column;
+        .icon-flex {
+            margin-bottom: 1.4rem;
+        }
+    }
+    .cli-container{
+        .cli-cmd {
+            grid-template-columns: 1fr;
+            justify-items: center;
+        }
+    }
+    .cloud-container{
+        .cloud-hosting {
+            grid-template-columns: 1fr;
+            align-items: center;
+            justify-items: center;
+        }
+    }
+    .languages {
+        .lang-content {
+            .lang-card-container {
+                .lang-card {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+        }
+    }
+    .container-footer-content {
+        .footer-container {
+            // background-color: #fff;
+            grid-template-columns: repeat(3, 1fr);
+            // justify-items: start;
+        }
+    }
+}
+
+/* Medium devices tablet and laptop*/
+@media (min-width: 768px) {
+    header{
+        height: 416px;
+    }
+    .header-nav {
+        // background-color: #333;
+        flex-direction: row;
+    }
+    .header-contain {
+        .header-content {
+        grid-template-columns: 1fr 1fr;
+        }
+    }
+    .stats-icon {
+        // background-color: #333;
+        flex-direction: row;
+        .icon-flex {
+            margin-bottom: 1.4rem;
+        }
+    }
+    .cli-container{
+        .cli-cmd {
+            grid-template-columns: 2fr 1fr;
+        }
+    }
+    .cloud-container{
+        .cloud-hosting {
+            grid-template-columns: 2fr 1fr;
+            align-items: center;
+            justify-items: center;
+        }
+    }
+
+    .languages {
+        .lang-content {
+            .lang-card-container {
+                .lang-card {
+                    grid-template-columns: repeat(6, 1fr);
+                }
+            }
+        }
+    }
+    .container-footer-content {
+        .footer-container {
+            // background-color: #fff;
+            grid-template-columns: repeat(3, 1fr);
+            // justify-items: start;
+        }
+    }
+}
+
+/* Large devices laptop */
+@media (min-width: 992px) {}
+
+/*Extra large devices */
+@media (min-width: 1200px) {}
