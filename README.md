@@ -1,5 +1,7 @@
 ### Newtech Project
->Newtech is a web hosting platform based on offering services all types of hosting services. 
+>Newtech is a web hosting platform based on offering services all types of hosting services.
+
+The project was deployed on Netlify [Click to see](https://newtech-chad.netlify.app/)
 
 This project was implemented using HTML, CSS and Sass a css preprocessor.
 
